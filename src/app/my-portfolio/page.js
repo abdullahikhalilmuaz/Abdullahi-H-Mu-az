@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import Head from "next/head";
 import Navbar from "../components/Navbar";
 import { ThemeProvider } from "./utils/ThemeContext";
-import "../styles/Portfolio.css";
+import "./styles/Portfolio.css";
 
 const Portfolio = () => {
   const [activeFilter, setActiveFilter] = useState("all");
