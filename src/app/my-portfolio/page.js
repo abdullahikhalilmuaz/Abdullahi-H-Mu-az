@@ -1,7 +1,7 @@
 "use client";
 import { useState, useEffect } from "react";
 import Head from "next/head";
-import Navbar from "../components/Navbar";
+import Navbar from "./components/Navbar";
 import { ThemeProvider } from "./utils/ThemeContext";
 import "./styles/Portfolio.css";
 
