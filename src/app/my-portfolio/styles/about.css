@@ -8,7 +8,7 @@
 
 /* Header Section */
 .about-header {
-  padding: 100px 0 50px;
+  padding: 100px 0 0px;
   background: radial-gradient(135deg, #667eea 0%, #764ba2 100%);
   position: relative;
   overflow: hidden;
@@ -216,15 +216,18 @@
   text-align: center;
   padding: 30px 20px;
   border-radius: 15px;
-  background: var(--card-background, #ffffff);
+  /* background: var(--card-background, #ffffff); */
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-  border: 1px solid rgba(102, 126, 234, 0.1);
+  border: 1px solid rgba(102, 148, 234, 0.1);
+  transition: 0.3s all ease-in-out;
+  cursor: pointer;
 }
 
 .achievement-card:hover {
   transform: translateY(-5px);
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  border: 1px solid rgba(102, 148, 234, 0.575);
 }
 
 .achievement-icon {
@@ -390,11 +393,17 @@
 }
 
 .timeline-content {
-  background: var(--card-background, #ffffff);
+  /* background: var(--card-background, #ffffff); */
   padding: 30px;
   border-radius: 12px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
   border: 1px solid rgba(102, 126, 234, 0.1);
+  transition: 0.3s all ease-in-out;
+}
+
+.timeline-content:hover {
+  border: 1px solid rgba(102, 126, 234, 0.562);
+  cursor: pointer;
 }
 
 .timeline-content h3 {
@@ -446,7 +455,7 @@
 
 /* CTA Section */
 .cta-section {
-  background: linear-gradient(135deg, #667eea42 0%, #764ba267 100%);
+  background: linear-gradient(135deg, #667eea09 0%, #764ba225 100%);
   padding: 50px 0;
   text-align: center;
   position: relative;

@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://abdullahihmuaz.onrender.com
+
+# Sitemaps
+Sitemap: https://abdullahihmuaz.onrender.com/sitemap.xml

@@ -20,41 +20,33 @@ const About = () => {
 
   const skills = [
     { name: "React", level: 90, icon: "fab fa-react" },
-    { name: "Next.js", level: 85, icon: "fas fa-layer-group" },
-    { name: "JavaScript", level: 92, icon: "fab fa-js-square" },
-    { name: "TypeScript", level: 80, icon: "fas fa-code" },
-    { name: "Node.js", level: 85, icon: "fab fa-node-js" },
-    { name: "Express.js", level: 88, icon: "fas fa-server" },
-    { name: "MongoDB", level: 82, icon: "fas fa-database" },
+    { name: "Next.js", level: 80, icon: "fas fa-layer-group" },
+    { name: "JavaScript", level: 70, icon: "fab fa-js-square" },
+    { name: "TypeScript", level: 70, icon: "fas fa-code" },
+    { name: "Node.js", level: 80, icon: "fab fa-node-js" },
+    { name: "Express.js", level: 80, icon: "fas fa-server" },
+    { name: "MongoDB", level: 80, icon: "fas fa-database" },
     { name: "HTML5", level: 95, icon: "fab fa-html5" },
     { name: "CSS3", level: 90, icon: "fab fa-css3-alt" },
-    { name: "Git", level: 87, icon: "fab fa-git-alt" },
-    { name: "GitHub", level: 85, icon: "fab fa-github" },
+    { name: "Git", level: 75, icon: "fab fa-git-alt" },
+    { name: "GitHub", level: 75, icon: "fab fa-github" },
   ];
 
   const experiences = [
     {
-      title: "Full-Stack Developer",
+      title: "Frontend Developer",
       company: "Freelance",
-      period: "2022 - Present",
+      period: "2021 - 2024",
       description:
         "Developing modern web applications using React, Next.js, and Node.js. Creating scalable solutions for various clients including library management systems and ticketing platforms.",
-      technologies: ["React", "Next.js", "Node.js", "MongoDB", "TypeScript"],
-    },
-    {
-      title: "Frontend Developer",
-      company: "Various Projects",
-      period: "2021 - 2022",
-      description:
-        "Built responsive and interactive user interfaces with React and modern CSS. Focused on creating seamless user experiences and pixel-perfect designs.",
-      technologies: ["React", "JavaScript", "HTML5", "CSS3", "Git"],
-    },
+      technologies: ["React", "Next.js", "Node.js", "MongoDB"],
+    }
   ];
 
   const achievements = [
     {
       icon: "fas fa-trophy",
-      title: "10+ Projects Completed",
+      title: "8+ Projects Completed",
       description: "Successfully delivered various web applications",
     },
     {
@@ -80,15 +72,13 @@ const About = () => {
         <div className="about-intro">
           <h2>Hello! I'm Abdullahi H Mu'az</h2>
           <p className="intro-text">
-            I'm a passionate full-stack developer with a love for creating
+            I'm a passionate full-stack developer and a blockchain developer with a love for creating
             digital experiences that are not only functional but also beautiful
-            and user-friendly. My journey in web development started with
-            curiosity and has evolved into a deep passion for crafting solutions
-            that make a difference.
+            and user-friendly.
           </p>
           <p>
-            I specialize in modern web technologies including React, Next.js,
-            and Node.js, with a strong foundation in both frontend and backend
+            I specialize in modern web technologies including React, Next.js, Node.js, solidity, and writing smart contract, 
+            with a strong foundation in both frontend, backend and blockchain
             development. I believe in writing clean, maintainable code and
             creating applications that scale.
           </p>
