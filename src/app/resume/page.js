@@ -125,7 +125,7 @@ const Resume = () => {
   ];
 
   const downloadResume = () => {
-    // In a real application, you would have a PDF file to download
+    window.print()
     const link = document.createElement("a");
     link.href = "/resume-abdullahi-muaz.pdf";
     link.download = "Abdullahi_Muaz_Resume.pdf";
