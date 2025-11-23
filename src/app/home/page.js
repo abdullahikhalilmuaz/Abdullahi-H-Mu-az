@@ -92,7 +92,7 @@ export default function Home() {
             </p>
 
             <div className="hero-buttons">
-              <Link href="/portfolio" className="btn btn-primary">
+              <Link href="/projects" className="btn btn-primary">
                 View My Work
               </Link>
               <Link href="/contact" className="btn btn-secondary">
